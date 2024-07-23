@@ -8,7 +8,7 @@ This is the code for the paper [Temporal Knowledge Question Answering via Abstra
 ## Architecture of ARI-QA
 ![Architecture of ARI-QA](https://s21.ax1x.com/2024/07/23/pkHCT58.png)
 
-ARI (Abstract Reasoning Induction) is an innovative framework designed to enhance the temporal reasoning capabilities of Large Language Models (LLMs). By dividing the reasoning process into two distinct phases—Knowledge-agnostic and Knowledge-based—ARI aims to mitigate the issues of hallucinations and improve LLMs' ability to integrate abstract methodologies derived from historical data. 
+**ARI (Abstract Reasoning Induction)** is an innovative framework designed to enhance the temporal reasoning capabilities of Large Language Models (LLMs). By dividing the reasoning process into two distinct phases—Knowledge-agnostic and Knowledge-based—ARI aims to mitigate the issues of hallucinations and improve LLMs' ability to integrate abstract methodologies derived from historical data. 
 
 ## Datasets
 
