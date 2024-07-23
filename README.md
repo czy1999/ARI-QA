@@ -45,7 +45,7 @@ unzip data.zip
 # For MultiTQ
 # run ./MultiTQ/run_multitq.ipynb
  ```
-
+ Note: Before running the code, make sure to input your OpenAI key in utils.py.
 
 ## Cite
 
