@@ -1,0 +1,5 @@
+sentence_transformers
+pandas
+numpy
+scikit-learn
+openai >= 2.0
