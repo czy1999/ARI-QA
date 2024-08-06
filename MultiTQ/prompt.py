@@ -1,11 +1,4 @@
-'''
-这类问题涉及事件的顺序判定，例如 Who {Relation R} {entity C} before {entity  B}, 要找到答案{entity A}我们需要分为三步骤进行推理，首先判定具体的时间锚点，即{entity  B，Relation，entity C}的发生时间t，然后找出哪些头实体和{entity C} 产生过Relation R的联系，最后筛选出满足before t这个时间要求的答案。具体步骤如下
 
-1. 首先使用get_time方法查找时间，$get_time(entity  B，Relation R，entity C)$，能够得到包含时间的四元组 {entity  B，Relation R，entity C，Time t}；
-2. 使用get_head_entity方法获取头实体，$get_head_entity(entity  C，Relation R，entity C)$，能够得到一系列四元组列表；
-3. 使用get_before方法筛选满足约束条件的实体，$get_before({entities},t)$,能够获取满足条件的实体列表
-4. 完成推理过程，回答找到的答案 $answer(entity A)$
-'''
 action_templates = [
     'get_tail_entity({head},{rel},{time})',
     'get_head_entity({tail},{rel},{time})',
