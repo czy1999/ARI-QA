@@ -3,7 +3,7 @@
 [![language-python3](https://img.shields.io/badge/Language-Python3-blue.svg?style=flat-square)](https://www.python.org/)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg?style=flat-square)](https://github.com/czy1999/MultiTQ/issues)
 
-This is the code for the paper [Temporal Knowledge Question Answering via Abstract Reasoning Induction](https://arxiv.org/pdf/2311.09149) (Chen et al., ACL 2024).
+This is the code for the paper [Temporal Knowledge Question Answering via Abstract Reasoning Induction](https://aclanthology.org/2024.acl-long.267) (Chen et al., ACL 2024).
 
 ## Architecture of ARI-QA
 ![Architecture of ARI-QA](https://s21.ax1x.com/2024/07/23/pkHCT58.png)
@@ -53,11 +53,23 @@ If you find our method, code, or experimental setups useful, please cite our pap
 
 
 ```bibtex
-@article{chen2023temporal,
-  title={Temporal Knowledge Question Answering via Abstract Reasoning Induction},
-  author={Chen, Ziyang and Li, Dongfang and Zhao, Xiang and Hu, Baotian and Zhang, Min},
-  journal={arXiv preprint arXiv:2311.09149},
-  year={2023}
+@inproceedings{chen-etal-2024-temporal,
+    title = "Temporal Knowledge Question Answering via Abstract Reasoning Induction",
+    author = "Chen, Ziyang  and
+      Li, Dongfang  and
+      Zhao, Xiang  and
+      Hu, Baotian  and
+      Zhang, Min",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.acl-long.267",
+    pages = "4872--4889"
 }
 ```
 
