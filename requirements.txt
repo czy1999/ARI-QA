@@ -2,4 +2,4 @@ sentence_transformers
 pandas
 numpy
 scikit-learn
-openai >= 2.0
+openai >= 1.30
